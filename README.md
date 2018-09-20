@@ -1,5 +1,7 @@
 # rmv-cli
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomraithel/rmv-cli.svg)](https://greenkeeper.io/)
+
 [esy]: https://github.com/esy-ocaml/esy
 
 ## Usage
