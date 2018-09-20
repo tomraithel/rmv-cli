@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResC ver="2.0" producer="HAFAS 5.42.RMV.X.P.JPL.7.2.10" lang="de" planId="1537363730-1530862110-1537366604-1526569424-1525676398-1486513855-planid=1537363730-planid0=1537363730-planid_adr=1530862110-planid_poi=1537366604-planid_ext=1526569424-planid_lmk=1525676398-planid_poi=1486513855"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://rmv.hafas.de/xsd/hafasXMLStationBoard_2_0.xsd">
+    <SBRes dir="D">
+        <SBReq dir="D">
+            <Start>
+                <Station>
+                    <ExternalId pooluic="80">3000001</ExternalId>
+                    <HafasName>
+                        <Text>Frankfurt (Main) Hauptwache</Text>
+                    </HafasName>
+                </Station>
+            </Start>
+            <Dest>
+                <Station>
+                    <ExternalId pooluic="">3006998</ExternalId>
+                    <HafasName>Hochheim &#x0028;Main&#x0029; Bahnhof</HafasName>
+                </Station>
+            </Dest>
+            <StartT time="16:45" date="20180920" />
+            <EndT time="17:38" date="20180920" />
+        </SBReq>
+        <JourneyList>
+            <Journey trainId="13082208001">
+                <JourneyAttributeList>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="NAME">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="CATEGORY">
+                            <AttributeCode>3</AttributeCode>
+                            <AttributeVariant type="LONG">
+                                <Text>S-Bahn</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>S</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="INTERNALCATEGORY">
+                            <AttributeVariant type="NORMAL">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="OPERATOR">
+                            <AttributeVariant type="LONG">
+                                <Text>DB Regio AG S-Bahn Rhein-Main</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>DBR</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>DBRSBRM</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="NUMBER">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type=" ">
+                            <AttributeVariant type="SHORT">
+                                <Text>Hochheim Bahnhof</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Hochheim (Main) Bahnhof</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="560" type="NORMAL">
+                            <AttributeCode>vt</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="610" type="NORMAL">
+                            <AttributeCode>vw</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Klimaanlage</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="-1" type="INFO">
+                            <AttributeCode>FD</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>36144</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="EXTERNALID">
+                            <AttributeVariant type="NORMAL">
+                                <Text>202</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                </JourneyAttributeList>
+                <MainStop>
+                    <BasicStop index="17">
+                        <Location x="8679292" y="50113963" type="WGS84">
+                            <Station>
+                                <ExternalId pooluic="80">3000001</ExternalId>
+                                <HafasName>
+                                    <Text>Frankfurt (Main) Hauptwache</Text>
+                                </HafasName>
+                            </Station>
+                        </Location>
+                        <Dep>
+                            <Time>16:53</Time>
+                            <Delay>1</Delay>
+                            <Platform>3</Platform>
+                        </Dep>
+                    </BasicStop>
+                </MainStop>
+                <Product name="S1" image="sb3" />
+                <InfoTextList>
+                    <InfoText text="S1: Nächtliche Zugausfälle und Verspätungen von 16.09. bis 06.10." textL="Jeweils zwischen ca. 22:40 Uhr und 06:40 Uhr wird im Bereich Flörsheim eine Stützmauer saniert. Es kommt deshalb zu Zugausfällen und Verspätungen. Für die Fahrgäste steht ein Schienenersatzverkehr mit Bussen zur Verfügung. &lt;br /&gt;Die Ersatzbusse halten jeweils an den Bahnhöfen mit Ausnahme Flörsheim. Hier hält der Bus im Höllweg. In den Bussen des Ersatzverkehrs ist keine Fahrradmitnahme möglich.&lt;br /&gt;&lt;br /&gt;In Richtung Wiesbaden kann es wegen der Sanierungsarbeiten und des Ersatzverkehrs zu Verspätungen von 30-35 Minuten kommen. &lt;br /&gt;&lt;br /&gt;Die Änderungen sind in der Verbindungsauskunft enthalten. Weitere Informationen im Artikel:"
+                        type="normal" />
+                </InfoTextList>
+                <LastRTInfo time="16:44" date="20180920" />
+            </Journey>
+            <Journey trainId="13072408018">
+                <JourneyAttributeList>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="NAME">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="CATEGORY">
+                            <AttributeCode>3</AttributeCode>
+                            <AttributeVariant type="LONG">
+                                <Text>S-Bahn</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>S</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="INTERNALCATEGORY">
+                            <AttributeVariant type="NORMAL">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="OPERATOR">
+                            <AttributeVariant type="LONG">
+                                <Text>DB Regio AG S-Bahn Rhein-Main</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>DBR</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>DBRSBRM</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="NUMBER">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="DIRECTION">
+                            <AttributeVariant type="SHORT">
+                                <Text>Wiesbaden Hauptbahnhof</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Wiesbaden Hauptbahnhof</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="560" type="NORMAL">
+                            <AttributeCode>vt</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="610" type="NORMAL">
+                            <AttributeCode>vw</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Klimaanlage</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="-1" type="INFO">
+                            <AttributeCode>FD</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>35152</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="EXTERNALID">
+                            <AttributeVariant type="NORMAL">
+                                <Text>282</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                </JourneyAttributeList>
+                <MainStop>
+                    <BasicStop index="17">
+                        <Location x="8679292" y="50113963" type="WGS84">
+                            <Station>
+                                <ExternalId pooluic="80">3000001</ExternalId>
+                                <HafasName>
+                                    <Text>Frankfurt (Main) Hauptwache</Text>
+                                </HafasName>
+                            </Station>
+                        </Location>
+                        <Dep>
+                            <Time>17:08</Time>
+                            <Delay>1</Delay>
+                            <Platform>3</Platform>
+                        </Dep>
+                    </BasicStop>
+                </MainStop>
+                <Product name="S1" image="sb3" />
+                <InfoTextList>
+                    <InfoText text="S1: Nächtliche Zugausfälle und Verspätungen von 16.09. bis 06.10." textL="Jeweils zwischen ca. 22:40 Uhr und 06:40 Uhr wird im Bereich Flörsheim eine Stützmauer saniert. Es kommt deshalb zu Zugausfällen und Verspätungen. Für die Fahrgäste steht ein Schienenersatzverkehr mit Bussen zur Verfügung. &lt;br /&gt;Die Ersatzbusse halten jeweils an den Bahnhöfen mit Ausnahme Flörsheim. Hier hält der Bus im Höllweg. In den Bussen des Ersatzverkehrs ist keine Fahrradmitnahme möglich.&lt;br /&gt;&lt;br /&gt;In Richtung Wiesbaden kann es wegen der Sanierungsarbeiten und des Ersatzverkehrs zu Verspätungen von 30-35 Minuten kommen. &lt;br /&gt;&lt;br /&gt;Die Änderungen sind in der Verbindungsauskunft enthalten. Weitere Informationen im Artikel:"
+                        type="normal" />
+                </InfoTextList>
+                <LastRTInfo time="16:37" date="20180920" />
+            </Journey>
+            <Journey trainId="13082208002">
+                <JourneyAttributeList>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="NAME">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="CATEGORY">
+                            <AttributeCode>3</AttributeCode>
+                            <AttributeVariant type="LONG">
+                                <Text>S-Bahn</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>S</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="INTERNALCATEGORY">
+                            <AttributeVariant type="NORMAL">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="OPERATOR">
+                            <AttributeVariant type="LONG">
+                                <Text>DB Regio AG S-Bahn Rhein-Main</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>DBR</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>DBRSBRM</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="NUMBER">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="DIRECTION">
+                            <AttributeVariant type="SHORT">
+                                <Text>Hochheim Bahnhof</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Hochheim (Main) Bahnhof</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="560" type="NORMAL">
+                            <AttributeCode>vt</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="610" type="NORMAL">
+                            <AttributeCode>vw</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Klimaanlage</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="28">
+                        <Attribute priority="-1" type="INFO">
+                            <AttributeCode>FD</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>36146</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="28">
+                        <Attribute priority="-1" type="EXTERNALID">
+                            <AttributeVariant type="NORMAL">
+                                <Text>200</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                </JourneyAttributeList>
+                <MainStop>
+                    <BasicStop index="17">
+                        <Location x="8679292" y="50113963" type="WGS84">
+                            <Station>
+                                <ExternalId pooluic="80">3000001</ExternalId>
+                                <HafasName>
+                                    <Text>Frankfurt (Main) Hauptwache</Text>
+                                </HafasName>
+                            </Station>
+                        </Location>
+                        <Dep>
+                            <Time>17:23</Time>
+                            <Delay>0</Delay>
+                            <Platform>3</Platform>
+                        </Dep>
+                    </BasicStop>
+                </MainStop>
+                <Product name="S1" image="sb3" />
+                <InfoTextList>
+                    <InfoText text="S1: Nächtliche Zugausfälle und Verspätungen von 16.09. bis 06.10." textL="Jeweils zwischen ca. 22:40 Uhr und 06:40 Uhr wird im Bereich Flörsheim eine Stützmauer saniert. Es kommt deshalb zu Zugausfällen und Verspätungen. Für die Fahrgäste steht ein Schienenersatzverkehr mit Bussen zur Verfügung. &lt;br /&gt;Die Ersatzbusse halten jeweils an den Bahnhöfen mit Ausnahme Flörsheim. Hier hält der Bus im Höllweg. In den Bussen des Ersatzverkehrs ist keine Fahrradmitnahme möglich.&lt;br /&gt;&lt;br /&gt;In Richtung Wiesbaden kann es wegen der Sanierungsarbeiten und des Ersatzverkehrs zu Verspätungen von 30-35 Minuten kommen. &lt;br /&gt;&lt;br /&gt;Die Änderungen sind in der Verbindungsauskunft enthalten. Weitere Informationen im Artikel:"
+                        type="normal" />
+                </InfoTextList>
+                <LastRTInfo time="14:43" date="20180920" />
+            </Journey>
+            <Journey trainId="13072408019">
+                <JourneyAttributeList>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="NAME">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="CATEGORY">
+                            <AttributeCode>3</AttributeCode>
+                            <AttributeVariant type="LONG">
+                                <Text>S-Bahn</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>S</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="INTERNALCATEGORY">
+                            <AttributeVariant type="NORMAL">
+                                <Text>SB3</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="OPERATOR">
+                            <AttributeVariant type="LONG">
+                                <Text>DB Regio AG S-Bahn Rhein-Main</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="SHORT">
+                                <Text>DBR</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>DBRSBRM</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="NUMBER">
+                            <AttributeVariant type="NORMAL">
+                                <Text>S1</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="DIRECTION">
+                            <AttributeVariant type="SHORT">
+                                <Text>Wiesbaden Hauptbahnhof</Text>
+                            </AttributeVariant>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Wiesbaden Hauptbahnhof</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="560" type="NORMAL">
+                            <AttributeCode>vt</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="610" type="NORMAL">
+                            <AttributeCode>vw</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>Klimaanlage</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="0" to="31">
+                        <Attribute priority="-1" type="INFO">
+                            <AttributeCode>FD</AttributeCode>
+                            <AttributeVariant type="NORMAL">
+                                <Text>35154</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                    <JourneyAttribute from="17" to="31">
+                        <Attribute priority="-1" type="EXTERNALID">
+                            <AttributeVariant type="NORMAL">
+                                <Text>281</Text>
+                            </AttributeVariant>
+                        </Attribute>
+                    </JourneyAttribute>
+                </JourneyAttributeList>
+                <MainStop>
+                    <BasicStop index="17">
+                        <Location x="8679292" y="50113963" type="WGS84">
+                            <Station>
+                                <ExternalId pooluic="80">3000001</ExternalId>
+                                <HafasName>
+                                    <Text>Frankfurt (Main) Hauptwache</Text>
+                                </HafasName>
+                            </Station>
+                        </Location>
+                        <Dep>
+                            <Time>17:38</Time>
+                            <Delay>0</Delay>
+                            <Platform>3</Platform>
+                        </Dep>
+                    </BasicStop>
+                </MainStop>
+                <Product name="S1" image="sb3" />
+                <InfoTextList>
+                    <InfoText text="S1: Nächtliche Zugausfälle und Verspätungen von 16.09. bis 06.10." textL="Jeweils zwischen ca. 22:40 Uhr und 06:40 Uhr wird im Bereich Flörsheim eine Stützmauer saniert. Es kommt deshalb zu Zugausfällen und Verspätungen. Für die Fahrgäste steht ein Schienenersatzverkehr mit Bussen zur Verfügung. &lt;br /&gt;Die Ersatzbusse halten jeweils an den Bahnhöfen mit Ausnahme Flörsheim. Hier hält der Bus im Höllweg. In den Bussen des Ersatzverkehrs ist keine Fahrradmitnahme möglich.&lt;br /&gt;&lt;br /&gt;In Richtung Wiesbaden kann es wegen der Sanierungsarbeiten und des Ersatzverkehrs zu Verspätungen von 30-35 Minuten kommen. &lt;br /&gt;&lt;br /&gt;Die Änderungen sind in der Verbindungsauskunft enthalten. Weitere Informationen im Artikel:"
+                        type="normal" />
+                </InfoTextList>
+                <LastRTInfo time="14:59" date="20180920" />
+            </Journey>
+        </JourneyList>
+        <NextUpdate time="16:53" date="20180920" />
+    </SBRes>
+</ResC>
