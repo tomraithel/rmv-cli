@@ -39,4 +39,6 @@ let journeys =
 
 let board = Board.make(~start, ~dest, ~journeys);
 
-print_endline(Board.toString(board));
+/* print_endline(Board.toString(board)); */
+
+Lib.Util.table(Board.toArray(board));

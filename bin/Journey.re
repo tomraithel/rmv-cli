@@ -13,20 +13,10 @@ let make = (~direction, ~number, ~time, ~delay, ~platform): t => {
   delay,
   platform,
 };
-let toString = ({direction, number, time, delay, platform}: t): string =>
-  "JOURNEY ---------\n"
-  ++ "direction: "
-  ++ direction
-  ++ "\n"
-  ++ "number: "
-  ++ number
-  ++ "\n"
-  ++ "time: "
-  ++ time
-  ++ "\n"
-  ++ "delay: "
-  ++ delay
-  ++ "\n"
-  ++ "platform: "
-  ++ platform
-  ++ "\n";
+
+let toArray = ({direction, number, time, delay, platform}: t): array(string) => [|
+  direction,
+  number,
+  time ++ " Uhr (" ++ delay ++ " min)",
+  platform,
+|];
